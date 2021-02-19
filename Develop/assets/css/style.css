@@ -8,6 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/* changed the header class to an element */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -24,6 +25,7 @@ header h1 .seo {
     color: #d9dcd6;
 }
 
+/* changed nav to an element instead of a class */
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -86,22 +88,26 @@ p {
     background-color: #2589bd;
 }
 
+/* consolidated the section elements */
 .benefits section {
     margin-bottom: 32px;
     color: #ffffff;
 }
- 
+
+/* consolidated the h3 elements */
 .benefits h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* consolidated the img elements */
 .benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* changed the div to a main element and consolidated the section elements */
 main section {
     margin-bottom: 20px;
     padding: 50px;
@@ -111,15 +117,18 @@ main section {
     color: #ffffff;
 }
 
+/* consolidated the img */
 main img {
     max-height: 200px;
 }
 
+/* consolidated the h2 elements */
 main h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* changed footer class to an element */
 footer {
     padding: 30px;
     clear: both;
